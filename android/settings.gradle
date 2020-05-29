@@ -1,4 +1,4 @@
-rootProject.name = 'TaskBurner'
+rootProject.name = 'testProj'
 
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 includeUnimodulesProjects()

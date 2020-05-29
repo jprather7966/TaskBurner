@@ -130,7 +130,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.taskburner"
+        applicationId "com.testproj"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
