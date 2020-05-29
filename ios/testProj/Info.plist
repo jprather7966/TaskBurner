@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>TaskBurner</string>
+	<string>testProj</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -57,26 +57,26 @@
 		</dict>
 	</dict>
 	<key>NSCalendarsUsageDescription</key>
-	<string>Allow TaskBurner to access your calendar</string>
+	<string>Allow testProj to access your calendar</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Allow TaskBurner to use the camera</string>
+	<string>Allow testProj to use the camera</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Allow TaskBurner experiences to access your contacts</string>
+	<string>Allow testProj experiences to access your contacts</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Allow TaskBurner to use your location</string>
+	<string>Allow testProj to use your location</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allow TaskBurner to use your location</string>
+	<string>Allow testProj to use your location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow TaskBurner to use your location</string>
+	<string>Allow testProj to use your location</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow TaskBurner to access your microphone</string>
+	<string>Allow testProj to access your microphone</string>
 	<key>NSMotionUsageDescription</key>
-	<string>Allow TaskBurner to access your device's accelerometer</string>
+	<string>Allow testProj to access your device's accelerometer</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Give TaskBurner periences permission to save photos</string>
+	<string>Give testProj periences permission to save photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Give TaskBurner periences permission to access your photos</string>
+	<string>Give testProj periences permission to access your photos</string>
 	<key>NSRemindersUsageDescription</key>
-	<string>Allow TaskBurner to access your reminders</string>
+	<string>Allow testProj to access your reminders</string>
 </dict>
 </plist>

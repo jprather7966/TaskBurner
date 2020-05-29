@@ -1,8 +1,8 @@
 {
-  "name": "TaskBurner",
-  "displayName": "TaskBurner",
+  "name": "testProj",
+  "displayName": "testProj",
   "expo": {
-    "name": "TaskBurner",
+    "name": "testProj",
     "slug": "expo-template-bare",
     "version": "1.0.0",
     "platforms": [
