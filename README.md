@@ -1,6 +1,8 @@
 # TaskBurner
 A Todo list that helps you plan your day and make sure you get your task done by seperating everything into four lists.
 
+Inspired by Martin Boehme: https://youtu.be/cWW7Q4eJr8w?t=431
+
 # The four lists
 
 ## Back Burner
