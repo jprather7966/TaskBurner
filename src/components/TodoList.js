@@ -7,7 +7,7 @@ export default function TodoList(props) {
   return (
     <View>
       {props.items.map((item) => (
-        <TodoItem text={item} />
+        <TodoItem title={item} />
       ))}
     </View>
   );

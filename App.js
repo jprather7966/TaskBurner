@@ -5,10 +5,14 @@ import ListHeader from "./src/components/ListHeader";
 import "react-native-gesture-handler";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
+import FrontBurner from "./src/screens/FrontBurner";
 import Styles from "./src/Styles/Styles";
 
 export default function App() {
-  function handlePress(event) {}
+  function handlePress(event) {
+    navigation.navigate("Front Burner");
+  }
+
   return (
     <NavigationContainer>
       <View style={{ flex: 1, backgroundColor: "#1b262c" }}>
@@ -58,12 +62,7 @@ function MyStack() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen
-          name='Home'
-          component={Home}
-          options={{ title: "Welcome" }}
-        />
-        <Stack.Screen name='Profile' component={Profile} />
+        <Stack.Screen name='Front Burner' component={FrontBurner} />
       </Stack.Navigator>
     </NavigationContainer>
   );
