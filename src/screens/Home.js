@@ -10,6 +10,7 @@ import FrontBurner from "../screens/FrontBurner";
 import Styles from "../Styles/Styles";
 
 export default function Home(props) {
+  const MyContext = React.createContext("defaultValue");
   return (
     <NavigationContainer>
       <View style={{ flex: 1, backgroundColor: "#1b262c" }}>
