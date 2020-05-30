@@ -1,13 +1,26 @@
-import * as React from "react";
-import { Text, View } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import BottomTab from "./components/BottomTabs";
-import SwipeTabView from "./components/SwipeTabView";
+// I moved the homepage to the src/screens folder
+import { createAppContainer } from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";
+import HomeScreen from "./src/screens/Home";
+import FrontBurner from "./src/screens/FrontBurner";
+import BackBurner from "./src/screens/BackBurner";
+import Vitamins from "./src/screens/Vitamins";
+import Oven from "./src/screens/Oven";
 
-export default function App() {
-  return (
-    <NavigationContainer>
-      <SwipeTabView />
-    </NavigationContainer>
-  );
-}
+const navigator = createStackNavigator(
+  {
+    Home: HomeScreen,
+    FrontBurner: FrontBurner,
+    BackBurner: BackBurner,
+    Vitamins: Vitamins,
+    Oven: Oven,
+  },
+  {
+    initialRouteName: "Home",
+    defaultNavigationOptions: {
+      title: "Task Burner",
+    },
+  }
+);
+
+export default createAppContainer(navigator);

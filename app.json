@@ -5,7 +5,14 @@
     "name": "TaskBurner",
     "slug": "TaskBurner",
     "version": "4.2.0",
-    "platforms": ["ios", "android", "web"],
-    "assetBundlePatterns": ["**/*"]
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "TaskBurner, complete your tasks with ease!"
   }
 }
