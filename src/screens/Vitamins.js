@@ -6,9 +6,8 @@ import Styles from "../Styles/Styles";
 
 export default function Vitamins() {
   return (
-    <View style={ScreenStyles.container}>
+    <View style={Styles.container}>
       <Text>Vitamins!</Text>
-      <TodoList />
     </View>
   );
 }

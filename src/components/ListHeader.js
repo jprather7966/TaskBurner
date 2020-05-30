@@ -2,6 +2,9 @@ import React from "react";
 import TouchableScale from "react-native-touchable-scale"; // https://github.com/kohver/react-native-touchable-scale
 import { ListItem } from "react-native-elements";
 export default function ListHeader(props) {
+  function handlePress() {
+    props.navigation.navigate(props.handleonPress);
+  }
   return (
     <ListItem
       Component={TouchableScale}
@@ -24,6 +27,7 @@ export default function ListHeader(props) {
       subtitleStyle={{ color: "white" }}
       subtitle='Vice Chairman'
       chevron={{ color: "white" }}
+      onPress={handlePress}
     />
   );
 }

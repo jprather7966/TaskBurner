@@ -7,7 +7,6 @@ export default function BackBurner() {
   return (
     <View style={Styles.container}>
       <Text style={Styles.text}>BackBurner!</Text>
-      <TodoList />
     </View>
   );
 }

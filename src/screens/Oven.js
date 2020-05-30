@@ -6,9 +6,8 @@ import Styles from "../Styles/Styles";
 
 export default function Oven() {
   return (
-    <View style={ScreenStyles.container}>
+    <View style={Styles.container}>
       <Text>Oven!</Text>
-      <TodoList />
     </View>
   );
 }
