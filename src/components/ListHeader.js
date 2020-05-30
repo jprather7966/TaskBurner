@@ -25,7 +25,7 @@ export default function ListHeader(props) {
       title={props.title}
       titleStyle={{ color: "white", fontWeight: "bold" }}
       subtitleStyle={{ color: "white" }}
-      subtitle='Vice Chairman'
+      subtitle={props.desc}
       chevron={{ color: "white" }}
       onPress={handlePress}
     />

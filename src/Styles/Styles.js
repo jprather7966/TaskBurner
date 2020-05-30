@@ -14,10 +14,7 @@ const Styles = StyleSheet.create({
   text: { fontSize: 16 },
   item: {
     alignSelf: "stretch",
-    padding: 12,
-    marginVertical: 5,
-    marginHorizontal: 5,
-    borderRadius: 10,
+    flex: 1,
   },
   title: { fontSize: 16, color: "#fff" },
 });
